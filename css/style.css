@@ -220,27 +220,13 @@ nav ul li a {
 }
 
 /* Contact Section */
-.contact-item {
-  display: flex;
+.contact-right {
+  display: contents;
   gap: 1.5rem;
   margin-bottom: 2.5rem;
 }
 
-.contact-item-icon {
-  background: var(--thirdBackgroundColor);
-  width: 53px;
-  height: 53px;
-  border-radius: 9px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.contact-item-icon svg {
-  fill: var(--primaryIconColor);
-}
-
-.contact-item-detail h4 {
+.contact-detail h4 {
   margin-bottom: 0.6rem;
 }
 
@@ -259,10 +245,10 @@ footer {
   margin: 0 0.5rem;
 }
 
-.footer-icons svg {
+.footer-icons img {
   fill: #3e3f40;
 }
 
-.footer-icons a:hover svg {
+.footer-icons a:hover img {
   fill: #000;
 }
